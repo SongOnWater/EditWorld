@@ -14,7 +14,7 @@ This repository contains the official implementation of our [EditWorld](https://
 
 ## Planning 
   - [√] Providing full pipeline of text-to-image generation for EditWorld dataset.
-  - [√] Releasing evaluation dataset.
+  - [√] Releasing [benchmark dataset V1](https://drive.google.com/drive/u/1/folders/1ReuBMCNiCIVT-pC6YnM9Rv2irJUMFfh7).
   - [ ] Releasing Checkpoints.
   - [ ] Releasing training and post-edit code.
 
@@ -82,7 +82,7 @@ datasets/
 └── train.json
 ```
 
-### Evaluation dataset link
+### Benchmark Dataset V1
 
 Our evaluation dataset is available at [editworld_test](https://drive.google.com/drive/u/1/folders/1ReuBMCNiCIVT-pC6YnM9Rv2irJUMFfh7).
 
