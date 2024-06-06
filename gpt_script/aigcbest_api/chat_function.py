@@ -13,7 +13,7 @@ def obtain_text(messages):
     })
     headers = {
         'Accept': 'application/json',
-        'Authorization': 'Bearer sk-ZXlWBlusVzO3UDGN71238cE8B6574fE09a5e3c1eBeFf610c',
+        'Authorization': 'Bearer <token>',
         'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
         'Content-Type': 'application/json'
     }
