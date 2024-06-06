@@ -8,7 +8,7 @@ from aigcbest_api.chat_function import obtain_text
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--define_json', type=str, default='gpt_script/define_sample_history/define_sample.json', help="json file of text samples.")
+    parser.add_argument('--define_json', type=str, default='gpt_script/define_sample_history/define_samples.json', help="json file of text samples.")
     parser.add_argument('--output_path', type=str, default='gpt_script/gen_sample_history/', help="json file of text samples.")
     parser.add_argument('--output_json', type=str, default='text_gen.json', help="json file of text samples.")
     opt = parser.parse_args()
